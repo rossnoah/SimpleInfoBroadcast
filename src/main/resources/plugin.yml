@@ -1,0 +1,11 @@
+name: SimpleInfoBroadcast
+version: '${project.version}'
+main: rip.plugins.simpleinfobroadcast.SimpleInfoBroadcast
+api-version: '1.19'
+commands:
+  sibreload:
+    description: Reloads the plugin
+    permission: simpleinfobroadcast.reload
+    usage: /<command>
+    aliases:
+    - simpleinfobroadcastreload

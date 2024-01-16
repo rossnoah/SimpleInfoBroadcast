@@ -1,0 +1,17 @@
+
+#CONFIG FOR SIMPLE INFO BROADCAST PLUGIN
+
+# Prefix for all messages
+prefix: "<gray>[<dark_gray>Info<gray>] "
+
+# Interval in seconds between messages
+interval: 10
+
+# Should the plugin log to console?
+log: false
+
+# Messages to broadcast
+messages:
+  - "<red>Example message 1"
+  - "<blue><i>Example message 2"
+  - "<green><b>Example message 3"
